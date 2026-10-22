@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+.titulo{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+.titulo img{
+    height: 6rem;
+    width: 5rem;
+}
+
+.titulo h1{
+    font: bold;
+    color: white;
+}
