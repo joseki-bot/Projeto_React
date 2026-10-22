@@ -5,3 +5,6 @@
     object-position: center;
     display: block;
 }
+.Fundo img {
+    filter: brightness(50%);
+}
