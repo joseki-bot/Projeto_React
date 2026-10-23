@@ -1,0 +1,30 @@
+/* === GERAIS === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+#root {
+  min-height: 100vh;
+}
+/* ================================================= */
+/**/
+
+/* === IMAGENS === */
+img {
+  max-width: 100%;
+}
+/* ================================================= */

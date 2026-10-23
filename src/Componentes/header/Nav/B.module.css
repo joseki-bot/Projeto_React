@@ -1,0 +1,25 @@
+.Botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px;
+  border: none;
+  border-radius: 50%;
+
+  background-color: var(--cor-botao);
+  color: var(--cor-texto);
+
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.Botao:hover {
+  opacity: 0.8;
+}
+
+.Botao svg {
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,61 @@
+.Conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+}
+
+.Texto {
+  flex: 1;
+  min-width: 0;
+  background-color: rgba(255, 255, 255, 0.65);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.Texto h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.9rem;
+}
+
+.Imagem {
+  flex: 1;
+  min-width: 0;
+}
+
+.Imagem img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  border-radius: 25px;
+}
+
+.BarataDiurna {
+  display: none;
+}
+
+.BarataNoturna {
+  display: block;
+}
+
+.Imagem .BarataDiurna {
+  display: none;
+}
+
+.Imagem .BarataNoturna {
+  display: block;
+}
+
+:global(html[data-theme='light']) .Imagem .BarataDiurna {
+  display: block;
+}
+
+:global(html[data-theme='light']) .Imagem .BarataNoturna {
+  display: none;
+}
